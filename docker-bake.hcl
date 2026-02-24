@@ -4,6 +4,5 @@ target "build" {
 }
 
 target "validate-build" {
-  inherits = ["build"]
+  inherits = ["build]
   call = "check"
-}
